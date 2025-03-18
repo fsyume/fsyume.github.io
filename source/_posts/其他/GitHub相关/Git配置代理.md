@@ -15,11 +15,13 @@ sticky:
 
 # 为本地git配置代理
 
-```shell
+```bash
+# 查看当前设置
+git config --global --list
 
 git config --global https.proxy socks5://127.0.0.1:7890
 
-git config --global https.proxy socks5://127.0.0.1:7890
+git config --global http.proxy socks5://127.0.0.1:7890
 
 git config --global --unset http.proxy
 
