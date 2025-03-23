@@ -558,7 +558,7 @@
       <link href="/posts/2c7a/"/>
       <url>/posts/2c7a/</url>
       
-        <content type="html"><![CDATA[<h1 id="cnpm"><a href="#cnpm" class="headerlink" title="cnpm"></a>cnpm</h1><blockquote><p>本系统运行在 <a href="mailto:&#x4e;&#x6f;&#x64;&#101;&#46;&#106;&#115;&#x40;&#118;&#49;&#54;&#46;&#x31;&#51;&#46;&#50;">&#x4e;&#x6f;&#x64;&#101;&#46;&#106;&#115;&#x40;&#118;&#49;&#54;&#46;&#x31;&#51;&#46;&#50;</a>上——2022年5月17日</p></blockquote><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g cnpm --registry=https://registry.npmmirror.com</span><br></pre></td></tr></table></figure><h2 id="npmmirror-中国镜像站"><a href="#npmmirror-中国镜像站" class="headerlink" title="npmmirror 中国镜像站"></a>npmmirror 中国镜像站</h2><p>📢📢 「重要通知」原淘宝 npm 域名即将停止解析 📢📢</p><p>这是一个完整 npmjs.org 镜像，你可以用此代替官方版本(只读)，同步频率目前为 10分钟 一次以保证尽量与官方服务同步。<br>当前 npmmirror.com 运行版本是: <a href="mailto:&#99;&#x6e;&#112;&#x6d;&#x63;&#x6f;&#114;&#101;&#x40;&#49;&#x2e;&#x30;&#x2e;&#48;&#x2d;&#x72;&#x63;&#46;&#49;">&#99;&#x6e;&#112;&#x6d;&#x63;&#x6f;&#114;&#101;&#x40;&#49;&#x2e;&#x30;&#x2e;&#48;&#x2d;&#x72;&#x63;&#46;&#49;</a><br>本系统运行在 <a href="mailto:&#x4e;&#111;&#x64;&#101;&#46;&#x6a;&#115;&#x40;&#x76;&#x31;&#x36;&#x2e;&#49;&#51;&#46;&#50;">&#x4e;&#111;&#x64;&#101;&#46;&#x6a;&#115;&#x40;&#x76;&#x31;&#x36;&#x2e;&#49;&#51;&#46;&#50;</a> 上<br>开源镜像: <a href="https://npmmirror.com/mirrors/">https://npmmirror.com/mirrors/</a><br>Node.js 镜像: <a href="https://npmmirror.com/mirrors/node/">https://npmmirror.com/mirrors/node/</a><br>alinode 镜像: <a href="https://npmmirror.com/mirrors/alinode/">https://npmmirror.com/mirrors/alinode/</a><br>ChromeDriver 镜像: <a href="https://npmmirror.com/mirrors/chromedriver/">https://npmmirror.com/mirrors/chromedriver/</a><br>OperaDriver 镜像: <a href="https://npmmirror.com/mirrors/operadriver/">https://npmmirror.com/mirrors/operadriver/</a><br>Selenium 镜像: <a href="https://npmmirror.com/mirrors/selenium/">https://npmmirror.com/mirrors/selenium/</a><br>electron 镜像: <a href="https://npmmirror.com/mirrors/electron/">https://npmmirror.com/mirrors/electron/</a></p>]]></content>
+        <content type="html"><![CDATA[<h1 id="cnpm"><a href="#cnpm" class="headerlink" title="cnpm"></a>cnpm</h1><blockquote><p>本系统运行在 <a href="mailto:&#78;&#x6f;&#x64;&#101;&#x2e;&#106;&#x73;&#x40;&#x76;&#49;&#x36;&#x2e;&#49;&#51;&#x2e;&#x32;">&#78;&#x6f;&#x64;&#101;&#x2e;&#106;&#x73;&#x40;&#x76;&#49;&#x36;&#x2e;&#49;&#51;&#x2e;&#x32;</a>上——2022年5月17日</p></blockquote><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g cnpm --registry=https://registry.npmmirror.com</span><br></pre></td></tr></table></figure><h2 id="npmmirror-中国镜像站"><a href="#npmmirror-中国镜像站" class="headerlink" title="npmmirror 中国镜像站"></a>npmmirror 中国镜像站</h2><p>📢📢 「重要通知」原淘宝 npm 域名即将停止解析 📢📢</p><p>这是一个完整 npmjs.org 镜像，你可以用此代替官方版本(只读)，同步频率目前为 10分钟 一次以保证尽量与官方服务同步。<br>当前 npmmirror.com 运行版本是: <a href="mailto:&#x63;&#x6e;&#x70;&#x6d;&#99;&#x6f;&#x72;&#101;&#x40;&#49;&#46;&#x30;&#x2e;&#48;&#x2d;&#114;&#x63;&#46;&#49;">&#x63;&#x6e;&#x70;&#x6d;&#99;&#x6f;&#x72;&#101;&#x40;&#49;&#46;&#x30;&#x2e;&#48;&#x2d;&#114;&#x63;&#46;&#49;</a><br>本系统运行在 <a href="mailto:&#x4e;&#x6f;&#x64;&#101;&#x2e;&#x6a;&#115;&#64;&#x76;&#49;&#x36;&#46;&#49;&#51;&#46;&#50;">&#x4e;&#x6f;&#x64;&#101;&#x2e;&#x6a;&#115;&#64;&#x76;&#49;&#x36;&#46;&#49;&#51;&#46;&#50;</a> 上<br>开源镜像: <a href="https://npmmirror.com/mirrors/">https://npmmirror.com/mirrors/</a><br>Node.js 镜像: <a href="https://npmmirror.com/mirrors/node/">https://npmmirror.com/mirrors/node/</a><br>alinode 镜像: <a href="https://npmmirror.com/mirrors/alinode/">https://npmmirror.com/mirrors/alinode/</a><br>ChromeDriver 镜像: <a href="https://npmmirror.com/mirrors/chromedriver/">https://npmmirror.com/mirrors/chromedriver/</a><br>OperaDriver 镜像: <a href="https://npmmirror.com/mirrors/operadriver/">https://npmmirror.com/mirrors/operadriver/</a><br>Selenium 镜像: <a href="https://npmmirror.com/mirrors/selenium/">https://npmmirror.com/mirrors/selenium/</a><br>electron 镜像: <a href="https://npmmirror.com/mirrors/electron/">https://npmmirror.com/mirrors/electron/</a></p>]]></content>
       
       
       <categories>
@@ -668,6 +668,33 @@
     
     
     <entry>
+      <title>MVC三层架构</title>
+      <link href="/posts/7676/"/>
+      <url>/posts/7676/</url>
+      
+        <content type="html"><![CDATA[<blockquote><ul><li>model模型<ul><li>数据库访问dao</li><li>业务逻辑处理service    领域对象模型</li></ul></li><li>view视图（JSP）<ul><li>展示数据</li><li>提供可以供我们操作的请求</li></ul></li><li>controller控制器（请求转发 servlet）<ul><li>接受用户的请求</li><li>响应给客户端内容</li><li>重定向或者转发</li></ul></li></ul></blockquote><h2 id="为什么使用MVC开发模式"><a href="#为什么使用MVC开发模式" class="headerlink" title="为什么使用MVC开发模式"></a>为什么使用MVC开发模式</h2>  <span id="more"></span><p>  传统JSP开发网页的缺点：<strong>耦合度高</strong></p><p>  MVC开发模式解决了耦合度高的问题</p><h2 id="什么是MVC开发模式"><a href="#什么是MVC开发模式" class="headerlink" title="什么是MVC开发模式"></a>什么是MVC开发模式</h2><p>  M代表Model（模型）</p><p>  指对象，数据库等（最底层）</p><p>  V代表View（视图）</p><p>  指视图，网页或应用上的给用户看的东西</p><p>  C代表Controller（控制器）</p><p>  分离View和Model，分别控制model和view进行业务操作</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+            <tag> MVC </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Spring框架</title>
       <link href="/posts/6214/"/>
       <url>/posts/6214/</url>
@@ -689,33 +716,6 @@
             <tag> Java </tag>
             
             <tag> Spring </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>MVC三层架构</title>
-      <link href="/posts/7676/"/>
-      <url>/posts/7676/</url>
-      
-        <content type="html"><![CDATA[<blockquote><ul><li>model模型<ul><li>数据库访问dao</li><li>业务逻辑处理service    领域对象模型</li></ul></li><li>view视图（JSP）<ul><li>展示数据</li><li>提供可以供我们操作的请求</li></ul></li><li>controller控制器（请求转发 servlet）<ul><li>接受用户的请求</li><li>响应给客户端内容</li><li>重定向或者转发</li></ul></li></ul></blockquote><h2 id="为什么使用MVC开发模式"><a href="#为什么使用MVC开发模式" class="headerlink" title="为什么使用MVC开发模式"></a>为什么使用MVC开发模式</h2>  <span id="more"></span><p>  传统JSP开发网页的缺点：<strong>耦合度高</strong></p><p>  MVC开发模式解决了耦合度高的问题</p><h2 id="什么是MVC开发模式"><a href="#什么是MVC开发模式" class="headerlink" title="什么是MVC开发模式"></a>什么是MVC开发模式</h2><p>  M代表Model（模型）</p><p>  指对象，数据库等（最底层）</p><p>  V代表View（视图）</p><p>  指视图，网页或应用上的给用户看的东西</p><p>  C代表Controller（控制器）</p><p>  分离View和Model，分别控制model和view进行业务操作</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Java </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Java </tag>
-            
-            <tag> MVC </tag>
             
         </tags>
       
