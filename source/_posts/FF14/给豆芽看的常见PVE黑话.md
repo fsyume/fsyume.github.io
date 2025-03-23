@@ -7,7 +7,7 @@ tags:
   - 黑话
   - PVE
 abbrlink: ff14-cant
-sticky: 1
+sticky:
 date:
 updated:
 ---
