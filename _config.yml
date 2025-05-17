@@ -115,6 +115,7 @@ ignore:
 theme: butterfly
 
 # Deployment
+# 推送至github仓库 分支static
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
