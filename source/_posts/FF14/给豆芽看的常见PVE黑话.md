@@ -7,9 +7,9 @@ tags:
   - 黑话
   - PVE
 abbrlink: ff14-cant
-sticky:
+sticky: 99
 date: 2024-8-7
-updated:
+updated: 2024-8-7
 ---
 # 给狒狒豆芽<img src="https://cos.blog.fsyume.com/blog-pic/ff14-cant/061523_hr1%20(2).png" alt="061523_hr1 (2)" style="zoom:25%;" />看的常见PVE黑话
 

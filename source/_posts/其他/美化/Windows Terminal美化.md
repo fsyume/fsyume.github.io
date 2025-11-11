@@ -1,13 +1,13 @@
 ---
 title: Windows Terminal美化
 date: 2022-8-1
-updated: 
+updated: 2022-8-1
 categories: 美化
 tags:
   - Windows Terminal
   - 美化
 description: Windows Terminal美化
-abbrlink: '0'
+abbrlink: f7a47aab
 ---
 ## Windows Terminal美化 
 > 近期看到美化的Windows Terminal就自己想美化一下
