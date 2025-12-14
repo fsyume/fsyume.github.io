@@ -19,3 +19,9 @@ sudo systemctl restart sshd //重启ssh
 ```shell
 ssh root@server-ip
 ```
+## 查看系统信息
+```shell
+lscpu //查看CPU信息
+lsblk //查看磁盘
+free -h //查看内存
+```
