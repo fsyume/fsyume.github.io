@@ -1,7 +1,10 @@
 # 延期Windows 11更新
+::: tip
+Date: 2026-03-02
 
-> 2026年3月2日
->
+Updated: 2026-03-02
+:::
+
 > win11 25H2可用
 
 powershell管理员运行
