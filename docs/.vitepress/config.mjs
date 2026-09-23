@@ -26,7 +26,37 @@ export default defineConfig({
       copyright: 'Copyright © 2022-present <a href="https://space.bilibili.com/115505904">chihying</a>'
     },
     search: {
-      provider: 'local'
+      provider: 'local',
+      options: {
+        miniSearch: {
+          options: {
+            // MiniSearch 默认只按空白/标点切词，中文整句会变成一个 token，
+            // 导致正文里的中文词无法被检索。这里对 CJK 追加 bigram 分词。
+            tokenize: (text) =>
+              text
+                .split(/[\n\r\p{Z}\p{P}]+/u)
+                .flatMap((segment) => {
+                  const tokens = segment.match(/[A-Za-z0-9_]+/g) ?? []
+                  const cjk = segment.match(/[\u3040-\u30ff\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]+/gu) ?? []
+                  for (const run of cjk) {
+                    if (run.length === 1) {
+                      tokens.push(run)
+                      continue
+                    }
+                    for (let i = 0; i < run.length - 1; i++) {
+                      tokens.push(run.slice(i, i + 2))
+                    }
+                  }
+                  return tokens
+                })
+          },
+          searchOptions: {
+            fuzzy: 0.2,
+            prefix: true,
+            boost: { title: 4, text: 2, titles: 1 }
+          }
+        }
+      }
     }
   }
 })
