@@ -15,7 +15,7 @@
 - [淘宝npm镜像](/others/淘宝npm镜像.md)
 
 ## 美化
-- [Windows Terminal美化](/others/Windows Terminal美化.md)
+- [Windows Terminal美化](/others/Windows-Terminal美化.md)
 
 ## 中文排版
 - [中文排版](/others/chinese.md)
