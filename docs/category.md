@@ -6,6 +6,12 @@
 > 网络相关
 ## [Python](/python/)
 > Python相关
+## [数据库](/database/)
+> 数据库相关
+## [算法](/algorithm/)
+> 算法相关
+## [Java](/java/)
+> Java相关
 ## [其他](/others/)
 > 其他分类
 ## [狒狒食肆](/ffxiv/)
