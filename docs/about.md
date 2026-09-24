@@ -12,6 +12,6 @@
 > - hi@fsyu.me
 >
 > Link:
-> - [B站主页 fsyu.me/bilibili](http://fsyu.me/bilibili)
-> - [Steam主页 fsyu.me/steam](http://fsyu.me/steam)
-> - [Github地址 fsyu.me/github](http://fsyu.me/github)
+> - [B站主页](https://space.bilibili.com/115505904)
+> - [Steam主页](https://steamcommunity.com/profiles/76561198411546921/)
+> - [Github地址](https://github.com/fsyume)
