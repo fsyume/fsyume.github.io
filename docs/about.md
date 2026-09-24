@@ -9,7 +9,7 @@
 - 狒P
 
 > Email: 
-> - hi@fsyu.me
+> - hi@fsyume.com
 >
 > Link:
 > - [B站主页](https://space.bilibili.com/115505904)
