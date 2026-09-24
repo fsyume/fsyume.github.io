@@ -1,5 +1,5 @@
 # 关于我
-<img src="https://cos.blog.fsyume.com/my/new_i.jpg" style="zoom:15%"/>
+<img src="https://cos.blog.fsyume.com/my/i3.png" style="zoom:15%"/>
 
 > 某不知名FS
  
