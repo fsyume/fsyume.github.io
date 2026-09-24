@@ -3,7 +3,14 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "FS的博客",
-  description: "FS的博客",
+  description: "个人技术博客：Linux / 网络 / Python / Java / 数据库 / 算法，以及最终幻想14攻略",
+  lang: 'zh-CN',
+  sitemap: {
+    hostname: 'https://www.fsyume.com'
+  },
+  head: [
+    ['link', { rel: 'icon', type: 'image/png', href: '/i.png' }]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -22,8 +29,8 @@ export default defineConfig({
     //   ]
     // },
     footer: {
-      message: '<a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral">本网站由<img src="https://cos.blog.fsyume.com/my/upyun_logo5.png" style="display:inline;height:30px;position:relative;top:9px;background-color:rgb(255,255,255,0.5);">提供CDN加速/云存储服务</a></br><a href="https://beian.miit.gov.cn/"><span>豫ICP备2020026923号-3</span></a>',
-      copyright: 'Copyright © 2022-present <a href="https://space.bilibili.com/115505904">chihying</a>'
+      message: '<a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_blank" rel="noopener">本网站由<img src="https://cos.blog.fsyume.com/my/upyun_logo5.png" alt="又拍云" style="display:inline;height:30px;position:relative;top:9px;background-color:rgb(255,255,255,0.5);">提供CDN加速/云存储服务</a><br><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener"><span>豫ICP备2020026923号-3</span></a>',
+      copyright: 'Copyright © 2022-present <a href="https://space.bilibili.com/115505904" target="_blank" rel="noopener">chihying</a>'
     },
     search: {
       provider: 'local',
