@@ -8,9 +8,6 @@ export default defineConfig({
   sitemap: {
     hostname: 'https://www.fsyume.com'
   },
-  head: [
-    ['link', { rel: 'icon', type: 'image/png', href: '/i.png' }]
-  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
