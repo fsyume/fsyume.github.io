@@ -1,5 +1,7 @@
 # 分类
 
+> 想看所有文章？按 [时间线](/timeline) 浏览。
+
 ## [Linux](/linux/)
 > Linux相关
 ## [网络](/network/)

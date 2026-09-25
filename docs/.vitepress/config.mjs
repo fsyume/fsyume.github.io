@@ -19,34 +19,78 @@ const postDatePlugin = (md) => {
   })
 }
 
-// 扫描所有 md 的 frontmatter，供 sitemap 填 lastmod 使用（优先 updated，回退 date）
-const dateMap = (() => {
-  const map = {}
+const CATS = {
+  linux: 'Linux', network: '网络', python: 'Python', java: 'Java',
+  database: '数据库', algorithm: '算法', others: '其他', ffxiv: '狒狒食肆'
+}
+
+// 扫描所有 md 的 frontmatter，收集文章元数据（供时间线页与 sitemap 使用）
+const scanPosts = () => {
+  const posts = []
   const docsDir = join(dirname(fileURLToPath(import.meta.url)), '..')
-  const walk = (dir, prefix) => {
+  const walk = (dir, rel) => {
     for (const entry of readdirSync(dir, { withFileTypes: true })) {
       if (entry.name.startsWith('.') || entry.name === 'node_modules') continue
+      const r = rel + entry.name
       if (entry.isDirectory()) {
-        walk(join(dir, entry.name), `${prefix}${entry.name}/`)
-      } else if (entry.name.endsWith('.md')) {
-        const fm = readFileSync(join(dir, entry.name), 'utf8').slice(0, 300)
-          .match(/^---\n([\s\S]*?)\n---/)
+        walk(join(dir, entry.name), `${r}/`)
+      } else if (entry.name.endsWith('.md') && entry.name !== 'index.md') {
+        const raw = readFileSync(join(dir, entry.name), 'utf8')
+        const fm = raw.match(/^---\n([\s\S]*?)\n---/)
         if (!fm) continue
         const date = fm[1].match(/^date:\s*([\d-]+)/m)?.[1]
         const updated = fm[1].match(/^updated:\s*([\d-]+)/m)?.[1]
-        if (date || updated) map[`${prefix}${entry.name}`] = updated ?? date
+        if (!date && !updated) continue
+        const title = raw.match(/^# (.+)$/m)?.[1].trim() || entry.name.slice(0, -3)
+        posts.push({
+          page: r,
+          date,
+          updated,
+          title,
+          link: `/${r.replace(/\.md$/, '')}`,
+          category: CATS[r.split('/')[0]] || r.split('/')[0]
+        })
       }
     }
   }
   walk(docsDir, '')
-  return map
-})()
+  posts.sort((a, b) => (b.date || '').localeCompare(a.date || ''))
+  return posts
+}
+
+const posts = scanPosts()
+// sitemap lastmod 用（优先 updated，回退 date）
+const dateMap = Object.fromEntries(posts.map((p) => [p.page, p.updated ?? p.date]))
+
+// 虚拟模块：向 docs/timeline.md 提供文章列表数据
+const postsVirtualPlugin = () => ({
+  name: 'posts-virtual',
+  enforce: 'pre',
+  resolveId(id) {
+    return id === 'virtual:posts' ? '\0virtual:posts' : null
+  },
+  load(id) {
+    if (id === '\0virtual:posts') return `export default ${JSON.stringify(posts)}`
+    return null
+  },
+  configureServer(server) {
+    // dev 下改动任何 md（新文章/改日期）时让虚拟模块失效重新生成
+    server.watcher.on('all', (_event, file) => {
+      if (!file.endsWith('.md')) return
+      const mod = server.moduleGraph.getModuleById('\0virtual:posts')
+      if (mod) server.moduleGraph.invalidateModule(mod)
+    })
+  }
+})
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "FS的博客",
   description: "个人技术博客：Linux / 网络 / Python / Java / 数据库 / 算法，以及最终幻想14攻略",
   lang: 'zh-CN',
+  vite: {
+    plugins: [postsVirtualPlugin()]
+  },
   markdown: {
     config: (md) => md.use(postDatePlugin)
   },
@@ -65,6 +109,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '分类', link: '/category' },
+      { text: '时间线', link: '/timeline' },
       { text: '关于', link: '/about' }
     ],
     sidebar: {
