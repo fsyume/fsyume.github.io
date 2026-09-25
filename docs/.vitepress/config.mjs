@@ -1,12 +1,64 @@
 import { defineConfig } from 'vitepress'
+import { readFileSync, readdirSync } from 'node:fs'
+import { join, dirname } from 'node:path'
+import { fileURLToPath } from 'node:url'
+
+// 文章日期渲染：读取 frontmatter 的 date/updated，注入到页面第一个 H1 标题之后
+const postDatePlugin = (md) => {
+  const fmt = (d) => (d instanceof Date ? d.toISOString().slice(0, 10) : String(d))
+  md.core.ruler.push('post-date', (state) => {
+    const fm = state.env?.frontmatter
+    if (!fm?.date) return
+    const idx = state.tokens.findIndex((t) => t.type === 'heading_open' && t.tag === 'h1')
+    if (idx === -1) return
+    const date = fmt(fm.date)
+    const updated = fm.updated && fmt(fm.updated) !== date ? ` · 更新于 ${fmt(fm.updated)}` : ''
+    const token = new state.Token('html_block', '', 0)
+    token.content = `<p style="color:var(--vp-c-text-3);font-size:.875rem">📅 发表于 ${date}${updated}</p>\n`
+    state.tokens.splice(idx + 3, 0, token)
+  })
+}
+
+// 扫描所有 md 的 frontmatter，供 sitemap 填 lastmod 使用（优先 updated，回退 date）
+const dateMap = (() => {
+  const map = {}
+  const docsDir = join(dirname(fileURLToPath(import.meta.url)), '..')
+  const walk = (dir, prefix) => {
+    for (const entry of readdirSync(dir, { withFileTypes: true })) {
+      if (entry.name.startsWith('.') || entry.name === 'node_modules') continue
+      if (entry.isDirectory()) {
+        walk(join(dir, entry.name), `${prefix}${entry.name}/`)
+      } else if (entry.name.endsWith('.md')) {
+        const fm = readFileSync(join(dir, entry.name), 'utf8').slice(0, 300)
+          .match(/^---\n([\s\S]*?)\n---/)
+        if (!fm) continue
+        const date = fm[1].match(/^date:\s*([\d-]+)/m)?.[1]
+        const updated = fm[1].match(/^updated:\s*([\d-]+)/m)?.[1]
+        if (date || updated) map[`${prefix}${entry.name}`] = updated ?? date
+      }
+    }
+  }
+  walk(docsDir, '')
+  return map
+})()
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "FS的博客",
   description: "个人技术博客：Linux / 网络 / Python / Java / 数据库 / 算法，以及最终幻想14攻略",
   lang: 'zh-CN',
+  markdown: {
+    config: (md) => md.use(postDatePlugin)
+  },
   sitemap: {
-    hostname: 'https://www.fsyume.com'
+    hostname: 'https://www.fsyume.com',
+    transformItems: (items) => items.map((item) => {
+      const page = item.url.endsWith('.html')
+        ? item.url.replace(/\.html$/, '.md')
+        : item.url === '' ? 'index.md' : `${item.url}index.md`
+      const lastmod = dateMap[page]
+      return lastmod ? { ...item, lastmod } : item
+    })
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
