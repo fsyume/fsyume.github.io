@@ -1,9 +1,8 @@
+---
+date: 2024-04-27
+updated: 2024-04-27
+---
 # 为本地git配置代理
-::: tip
-Date: 2024-04-27
-
-Updated: 2024-04-27
-:::
 ```bash
 # 查看当前设置
 git config --global --list

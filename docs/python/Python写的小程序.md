@@ -1,9 +1,8 @@
+---
+date: 2020-08-01
+updated: 2020-08-01
+---
 # 通过Python和BilibiliAPI来获取B站账户UID和粉丝数
-::: tip
-Date: 2020-08-01
-
-Updated: 2020-08-01
-:::
 ### 需要工具：
 
 - Python的requests库

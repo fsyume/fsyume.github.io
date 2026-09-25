@@ -1,9 +1,8 @@
+---
+date: 2022-01-19
+updated: 2022-01-19
+---
 # MySQL数据库安装包安装（一键安装包安装）
-::: tip
-Date: 2022-01-19
-
-Updated: 2022-01-19
-:::
 ## 下载地址
 [MySQL安装包下载📄](https://downloads.mysql.com/archives/installer/)
 

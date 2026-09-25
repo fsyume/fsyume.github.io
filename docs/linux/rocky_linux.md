@@ -1,6 +1,5 @@
+---
+date: 2026-03-07
+updated: 2026-03-07
+---
 # Rocky Linux
-::: tip
-Date: 2026-03-07
-
-Updated: 2026-03-07
-:::

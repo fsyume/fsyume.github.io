@@ -1,9 +1,8 @@
+---
+date: 2022-08-01
+updated: 2022-08-01
+---
 # Windows Terminal美化
-::: tip
-Date: 2022-08-01
-
-Updated: 2022-08-01
-:::
 ## Windows Terminal美化 
 > 近期看到美化的Windows Terminal就自己想美化一下
 

@@ -1,3 +1,6 @@
+---
+date: 2026-03-07
+---
 # 中文文档格式规范
 :::tip
 来自：https://github.com/anjuke/coding-style.git

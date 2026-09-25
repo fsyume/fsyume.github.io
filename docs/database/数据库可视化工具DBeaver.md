@@ -1,9 +1,8 @@
+---
+date: 2022-01-19
+updated: 2022-01-19
+---
 # 数据库可视化工具DBeaver
-::: tip
-Date: 2022-01-19
-
-Updated: 2022-01-19
-:::
 [Github项目地址](https://github.com/dbeaver/dbeaver)
 支持多种数据库
 

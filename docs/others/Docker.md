@@ -1,9 +1,8 @@
+---
+date: 2020-12-12
+updated: 2020-12-12
+---
 # Docker
-::: tip
-Date: 2020-12-12
-
-Updated: 2020-12-12
-:::
 ## Docker安装
 
 [Docker官方文档](https://docs.docker.com/get-docker/)

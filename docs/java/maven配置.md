@@ -1,9 +1,8 @@
+---
+date: 2020-09-17
+updated: 2020-09-17
+---
 # maven配置
-::: tip
-Date: 2020-09-17
-
-Updated: 2020-09-17
-:::
 ## maven下载
 
 [maven下载地址](https://maven.apache.org/download.cgi)
