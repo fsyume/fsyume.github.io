@@ -23,3 +23,4 @@
 ## 碎碎念
 - [VS Code插件推荐](/others/VSCode插件推荐.md)
 - [博客更换主题](/others/博客更换主题.md)
+- [博客文章书写规范](/others/博客文章书写规范.md)

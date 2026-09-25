@@ -216,7 +216,8 @@ export default defineConfig({
             ]},
             { text: '碎碎念', collapsed: true, items: [
               { text: 'VS Code插件推荐', link: '/others/VSCode插件推荐' },
-              { text: '博客更换主题', link: '/others/博客更换主题' }
+              { text: '博客更换主题', link: '/others/博客更换主题' },
+              { text: '博客文章书写规范', link: '/others/博客文章书写规范' }
             ]}
           ]
         }
