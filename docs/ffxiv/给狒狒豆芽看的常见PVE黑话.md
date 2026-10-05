@@ -16,73 +16,73 @@ Author：哔哩哔哩[@某不知名FS](https://space.bilibili.com/115505904)
 
 ## 常见职业黑话
 
-### <img src="https://cos.blog.fsyume.com/blog-pic/ff14-cant/076801_hr1.png" width="26" alt="防护职业"> 防护职业
+### <img src="/images/blog-pic/ff14-cant/076801_hr1.png" width="26" alt="防护职业"> 防护职业
 
 因防护职业图标背景颜色为蓝色，故称为蓝职/蓝色职业，也称坦克、T。
 
 | 图标 | 职业 | 常见黑话 |
 | :-: | :-: | :-- |
-| <img src="https://cos.blog.fsyume.com/blog-pic/ff14-cant/076804_hr1.png" width="28"> | 骑士 | 圣骑/奶骑、帕拉丁、剑盾小子/剑盾小B（历史版本原因而被玩家调侃）、持盾小子、白骑 |
-| <img src="https://cos.blog.fsyume.com/blog-pic/ff14-cant/076806_hr1-1723168232469-13.png" width="28"> | 战士 | 战爹、蝙蝠侠（因图标像蝙蝠） |
-| <img src="https://cos.blog.fsyume.com/blog-pic/ff14-cant/076820_hr1.png" width="28"> | 绝枪战士 | 绝枪、枪刃 |
-| <img src="https://cos.blog.fsyume.com/blog-pic/ff14-cant/076815_hr1.png" width="28"> | 暗黑骑士 | 法坦（因暗黑骑士有其余3T独一无二的法术减伤而得名）、Dark Knight、DK、黑骑 |
+| <img src="/images/blog-pic/ff14-cant/076804_hr1.png" width="28"> | 骑士 | 圣骑/奶骑、帕拉丁、剑盾小子/剑盾小B（历史版本原因而被玩家调侃）、持盾小子、白骑 |
+| <img src="/images/blog-pic/ff14-cant/076806_hr1-1723168232469-13.png" width="28"> | 战士 | 战爹、蝙蝠侠（因图标像蝙蝠） |
+| <img src="/images/blog-pic/ff14-cant/076820_hr1.png" width="28"> | 绝枪战士 | 绝枪、枪刃 |
+| <img src="/images/blog-pic/ff14-cant/076815_hr1.png" width="28"> | 暗黑骑士 | 法坦（因暗黑骑士有其余3T独一无二的法术减伤而得名）、Dark Knight、DK、黑骑 |
 
-### <img src="https://cos.blog.fsyume.com/blog-pic/ff14-cant/076802_hr1.png" width="26" alt="治疗职业"> 治疗职业
+### <img src="/images/blog-pic/ff14-cant/076802_hr1.png" width="26" alt="治疗职业"> 治疗职业
 
 因治疗职业图标背景颜色为绿色，故称为绿职/绿色职业，也称奶妈、H（有时会以"奶"的拼音首字母简称为N）。
 
 | 图标 | 职业 | 常见黑话 |
 | :-: | :-: | :-- |
-| <img src="https://cos.blog.fsyume.com/blog-pic/ff14-cant/076809_hr1.png" width="28"> | 白魔法师 | 闪耀法师（旧称）、投石机（旧称）、白膜/白魔 |
-| <img src="https://cos.blog.fsyume.com/blog-pic/ff14-cant/076812_hr1.png" width="28"> | 学者 | 小仙女的召唤兽、秘术双子（因学者和召唤皆由秘术师转职而来，且共享等级） |
-| <img src="https://cos.blog.fsyume.com/blog-pic/ff14-cant/076816_hr1.png" width="28"> | 占星术士 | 占星/占妈、最美职业（因占星术士的3段极限技的炫酷特效而得名） |
-| <img src="https://cos.blog.fsyume.com/blog-pic/ff14-cant/076843_hr1.png" width="28"> | 贤者 | 贤者 |
+| <img src="/images/blog-pic/ff14-cant/076809_hr1.png" width="28"> | 白魔法师 | 闪耀法师（旧称）、投石机（旧称）、白膜/白魔 |
+| <img src="/images/blog-pic/ff14-cant/076812_hr1.png" width="28"> | 学者 | 小仙女的召唤兽、秘术双子（因学者和召唤皆由秘术师转职而来，且共享等级） |
+| <img src="/images/blog-pic/ff14-cant/076816_hr1.png" width="28"> | 占星术士 | 占星/占妈、最美职业（因占星术士的3段极限技的炫酷特效而得名） |
+| <img src="/images/blog-pic/ff14-cant/076843_hr1.png" width="28"> | 贤者 | 贤者 |
 
-### <img src="https://cos.blog.fsyume.com/blog-pic/ff14-cant/076803_hr1.png" width="26" alt="输出职业"> 输出职业
+### <img src="/images/blog-pic/ff14-cant/076803_hr1.png" width="26" alt="输出职业"> 输出职业
 
 因输出职业图标背景为红色，故称为红职/红色职业，也称DPS、D。
 
-#### <img src="https://cos.blog.fsyume.com/blog-pic/ff14-cant/062584_hr1.png" width="26" alt="近战"> 近战输出职业
+#### <img src="/images/blog-pic/ff14-cant/062584_hr1.png" width="26" alt="近战"> 近战输出职业
 
 以近身输出为主，且职业循环中有身位要求的职业。
 
 | 图标 | 职业 | 常见黑话 |
 | :-: | :-: | :-- |
-| <img src="https://cos.blog.fsyume.com/blog-pic/ff14-cant/076807_hr1.png" width="28"> | 龙骑士 | 龙骑、擦炮工（因动作和4.0版本CG的擦炮工神似而得名）、插头（职业图标像插头） |
-| <img src="https://cos.blog.fsyume.com/blog-pic/ff14-cant/076805_hr1.png" width="28"> | 武僧 | Monk、武僧 |
-| <img src="https://cos.blog.fsyume.com/blog-pic/ff14-cant/076813_hr1.png" width="28"> | 忍者 | 火影、兔忍（因忍者职业结印错误会在头顶生成没有任何实际效果的兔子而得名） |
-| <img src="https://cos.blog.fsyume.com/blog-pic/ff14-cant/076817_hr1-1723173213486-1.png" width="28"> | 武士 | 侍、盘子（职业图标像盘子） |
-| <img src="https://cos.blog.fsyume.com/blog-pic/ff14-cant/076842_hr1.png" width="28"> | 钐镰客 | 镰刀 |
+| <img src="/images/blog-pic/ff14-cant/076807_hr1.png" width="28"> | 龙骑士 | 龙骑、擦炮工（因动作和4.0版本CG的擦炮工神似而得名）、插头（职业图标像插头） |
+| <img src="/images/blog-pic/ff14-cant/076805_hr1.png" width="28"> | 武僧 | Monk、武僧 |
+| <img src="/images/blog-pic/ff14-cant/076813_hr1.png" width="28"> | 忍者 | 火影、兔忍（因忍者职业结印错误会在头顶生成没有任何实际效果的兔子而得名） |
+| <img src="/images/blog-pic/ff14-cant/076817_hr1-1723173213486-1.png" width="28"> | 武士 | 侍、盘子（职业图标像盘子） |
+| <img src="/images/blog-pic/ff14-cant/076842_hr1.png" width="28"> | 钐镰客 | 镰刀 |
 
-#### <img src="https://cos.blog.fsyume.com/blog-pic/ff14-cant/062586_hr1.png" width="26" alt="远程物理"> 远程物理输出
+#### <img src="/images/blog-pic/ff14-cant/062586_hr1.png" width="26" alt="远程物理"> 远程物理输出
 
 以远程物理属性攻击为主的职业。
 
 | 图标 | 职业 | 常见黑话 |
 | :-: | :-: | :-- |
-| <img src="https://cos.blog.fsyume.com/blog-pic/ff14-cant/076808_hr1.png" width="28"> | 吟游诗人 | 聋诗（旧称）、诗人 |
-| <img src="https://cos.blog.fsyume.com/blog-pic/ff14-cant/076821_hr1.png" width="28"> | 舞者 | 舞者 |
-| <img src="https://cos.blog.fsyume.com/blog-pic/ff14-cant/076814_hr1.png" width="28"> | 机工士 | 机工、手枪哥（职业图标像手枪） |
+| <img src="/images/blog-pic/ff14-cant/076808_hr1.png" width="28"> | 吟游诗人 | 聋诗（旧称）、诗人 |
+| <img src="/images/blog-pic/ff14-cant/076821_hr1.png" width="28"> | 舞者 | 舞者 |
+| <img src="/images/blog-pic/ff14-cant/076814_hr1.png" width="28"> | 机工士 | 机工、手枪哥（职业图标像手枪） |
 
-#### <img src="https://cos.blog.fsyume.com/blog-pic/ff14-cant/062587_hr1.png" width="26" alt="远程魔法"> 远程魔法职业
+#### <img src="/images/blog-pic/ff14-cant/062587_hr1.png" width="26" alt="远程魔法"> 远程魔法职业
 
 以远程魔法属性攻击为主的职业。
 
 | 图标 | 职业 | 常见黑话 |
 | :-: | :-: | :-- |
-| <img src="https://cos.blog.fsyume.com/blog-pic/ff14-cant/076811_hr1.png" width="28"> | 召唤师 | 召唤、召日天、真远敏 |
-| <img src="https://cos.blog.fsyume.com/blog-pic/ff14-cant/076818_hr1.png" width="28"> | 赤魔法师 | 吃馍/赤魔、倒立白魔（因职业图标像白魔图标的倒立版本而得名）、红色治疗/赤菩萨（因职业技能"赤治疗"、"赤复活"配合其特性"即刻咏唱"，可做到短时间1拉7的效果而得名） |
-| <img src="https://cos.blog.fsyume.com/blog-pic/ff14-cant/076810_hr1.png" width="28"> | 黑魔法师 | 黑魔 |
+| <img src="/images/blog-pic/ff14-cant/076811_hr1.png" width="28"> | 召唤师 | 召唤、召日天、真远敏 |
+| <img src="/images/blog-pic/ff14-cant/076818_hr1.png" width="28"> | 赤魔法师 | 吃馍/赤魔、倒立白魔（因职业图标像白魔图标的倒立版本而得名）、红色治疗/赤菩萨（因职业技能"赤治疗"、"赤复活"配合其特性"即刻咏唱"，可做到短时间1拉7的效果而得名） |
+| <img src="/images/blog-pic/ff14-cant/076810_hr1.png" width="28"> | 黑魔法师 | 黑魔 |
 
-#### <img src="https://cos.blog.fsyume.com/blog-pic/ff14-cant/none.png" width="26" alt="自嗨职业"> 自嗨职业
+#### <img src="/images/blog-pic/ff14-cant/none.png" width="26" alt="自嗨职业"> 自嗨职业
 
 指没有团队辅助增伤效果的输出职业，例如：`武士`，`机工士`，`黑魔法师`。
 
-#### <img src="https://cos.blog.fsyume.com/blog-pic/ff14-cant/076819_hr1.png" width="26" alt="青魔法师"> 特殊职业：青魔法师
+#### <img src="/images/blog-pic/ff14-cant/076819_hr1.png" width="26" alt="青魔法师"> 特殊职业：青魔法师
 
 青魔法师作为**受限职业**，几乎无法参与任何野外战斗和副本以外的战斗内容。青魔就算想要参与副本任务，也只能通过组队或解除限制的方式进入，无法使用随机任务排本。**青魔做为职业，不如说青魔是一种玩法**。
 
-## <img src="https://cos.blog.fsyume.com/blog-pic/ff14-cant/000054_hr1%20(2).png" width="26" alt="队员招募"> 招募板黑话
+## <img src="/images/blog-pic/ff14-cant/000054_hr1-2.png" width="26" alt="队员招募"> 招募板黑话
 
 > 游戏内大部分PVE内容需要多名玩家一起进行，一般会在游戏内"队员招募"处，发布招募。
 
@@ -139,7 +139,7 @@ Author：哔哩哔哩[@某不知名FS](https://space.bilibili.com/115505904)
 #### 职能构成（标准8人队伍）
 
 <p align="center">
-  <img src="https://cos.blog.fsyume.com/blog-pic/ff14-cant/120115_hr1.png" width="240" alt="职能构成">
+  <img src="/images/blog-pic/ff14-cant/120115_hr1.png" width="240" alt="职能构成">
 </p>
 
 > 为方便攻略副本，8人队伍一般有如下位置
@@ -189,7 +189,7 @@ Author：哔哩哔哩[@某不知名FS](https://space.bilibili.com/115505904)
 
 #### LB
 
-<img src="https://cos.blog.fsyume.com/blog-pic/ff14-cant/000103_hr1%20(2).png" width="28" alt="LB"> 极限技，Limit Break的简称，指的是团队一起积攒的技能，（需要单独拖到技能栏：角色->技能菜单（P键）->共通技能）。
+<img src="/images/blog-pic/ff14-cant/000103_hr1-2.png" width="28" alt="LB"> 极限技，Limit Break的简称，指的是团队一起积攒的技能，（需要单独拖到技能栏：角色->技能菜单（P键）->共通技能）。
 
 8人小队为最高3段LB，根据职能不同，极限技有不同的效果。
 

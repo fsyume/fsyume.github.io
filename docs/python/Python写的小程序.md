@@ -10,7 +10,7 @@ updated: 2020-08-01
 
 > Bilibili用户API
 
-![](https://gitee.com/kzycn/picCloud/raw/master/2020/20200910135717.png)
+> ⚠️ 原配图外链已失效，暂缺。
 
 ```python
 bili_api = 'https://api.bilibili.com/x/relation/stat?vmid=115505904'
@@ -18,7 +18,7 @@ bili_api = 'https://api.bilibili.com/x/relation/stat?vmid=115505904'
 
 通过requests库的get方法来请求API来获取json数据
 
-![](https://gitee.com/kzycn/picCloud/raw/master/2020/20200910140603.png)
+> ⚠️ 原配图外链已失效，暂缺。
 
 ```python
 # json,get请求模块

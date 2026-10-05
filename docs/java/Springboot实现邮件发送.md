@@ -43,7 +43,7 @@ spring:
         debug: true
 ```
 
-![](https://gitee.com/kzycn/picCloud/raw/master/2021/20210130120801.png)
+> ⚠️ 原配图外链已失效，暂缺。
 
 ## 2.核心业务代码
 

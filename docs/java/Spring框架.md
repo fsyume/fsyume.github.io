@@ -32,7 +32,7 @@ Spring是轻量级开源的JavaEE框架，解决企业应用开发的复杂性�
 
 [Spring官网地址](https://spring.io/)
 
-![Spring官网](https://cos.blog.fsyume.com/blog-pic/202205261329104.png)
+![Spring官网](/images/blog-pic/202205261329104.png)
 
 **Maven配置：**
 
@@ -74,7 +74,7 @@ Spring是轻量级开源的JavaEE框架，解决企业应用开发的复杂性�
 
 入的方式, **实现对象与对象之间的解耦**.(高内聚,低耦合) 
 
-![](https://cos.blog.fsyume.com/blog-pic/202205261331447.png)
+![](/images/blog-pic/202205261331447.png)
 
 ## 面向切面编程（AOP）
 
@@ -114,7 +114,7 @@ Spring 框架的 AOP 模块提供了面向切面的程序设计实现，允许�
 
 ### 1.创建maven工程
 
-![](https://cos.blog.fsyume.com/blog-pic/202205261332927.png)
+![](/images/blog-pic/202205261332927.png)
 
 ### 2.项目依赖
 
@@ -146,7 +146,7 @@ Spring 框架的 AOP 模块提供了面向切面的程序设计实现，允许�
 
 ### 3.配置文件
 
-![](https://gitee.com/kzycn/picCloud/raw/master/2020/image-20200927070220653.png)
+> ⚠️ 原配图外链已失效，暂缺。
 
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>

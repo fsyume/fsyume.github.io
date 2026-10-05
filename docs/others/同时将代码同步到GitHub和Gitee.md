@@ -30,4 +30,4 @@ C:\Users\<用户名>\.ssh
 
 如果你使用的是乌龟git可视化操作需要配置乌龟git的默认ssh
 
-![乌龟git](https://cdn.jsdelivr.net/gh/kzycn/cdn/Github/TortoiseGit.png)
+> ⚠️ 原配图外链已失效，暂缺。

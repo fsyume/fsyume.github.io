@@ -6,7 +6,7 @@ description: 某不知名FS的个人主页
 import { VPTeamMembers } from 'vitepress/theme'
 const members = [
   {
-    avatar: 'https://cos.blog.fsyume.com/my/i3.png',
+    avatar: '/images/my/i3.png',
     name: '某不知名FS',
     title: '摸鱼Coder · 人生苦短，吾用python',
     org: 'FS的博客',

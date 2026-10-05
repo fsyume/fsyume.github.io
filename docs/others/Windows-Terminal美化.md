@@ -18,16 +18,16 @@ updated: 2022-08-01
 
 ### 打开Windows Terminal json配置文件
 1. 打开设置
-![](https://cos.blog.fsyume.com/blog-pic/202208021123977.png)
+![](/images/blog-pic/202208021123977.png)
 2. 打开JSON文件
-![](https://cos.blog.fsyume.com/blog-pic/202208021125412.png)
+![](/images/blog-pic/202208021125412.png)
 3. 配置JSON文件
 > 如果不想自己配置
 > 这个网站提供现成的模板：
 > https://windowsterminalthemes.dev/
 
 找到如同所示的JSON段
-![](https://cos.blog.fsyume.com/blog-pic/202208021130726.png)
+![](/images/blog-pic/202208021130726.png)
 
 ### 配置文件参数
 **配置参数说明（部分）**
@@ -48,7 +48,7 @@ updated: 2022-08-01
 winget install JanDeDobbeleer.OhMyPosh -s winget
 ```
 也可以根据官网的操作，进入商店进行下载
-![](https://cos.blog.fsyume.com/blog-pic/202208021137625.png)
+![](/images/blog-pic/202208021137625.png)
 
 ### 配置oh my posh
 安装完毕之后我们需要配置一下脚本
@@ -62,5 +62,5 @@ winget install JanDeDobbeleer.OhMyPosh -s winget
 oh-my-posh init pwsh --config $env:POSH_THEMES_PATH\montys.omp.json | Invoke-Expression
 ```
 **这样就配置完毕了，剩下就是选择自己喜欢的字体即可（注意官方强调为了图标显示必须Nerd字体）**
-![](https://cos.blog.fsyume.com/blog-pic/202208021142259.png)
+![](/images/blog-pic/202208021142259.png)
 在[nerdfonts.com](https://www.nerdfonts.com/font-downloads) 选择自己喜欢的Nerd字体即可

@@ -1,15 +1,9 @@
 name: Deploy Blog
 
-# 一条流水线双端发布：
-#   国内线路 → 又拍云 CDN（云存储为源）
-#   国外线路 → GitHub Pages
+# 发布 GitHub Pages（国外线路）。
+# 国内线路的原又拍云部署已移除（又拍云停服）；待选定新的静态托管后，在下方
+# “国内线路：待补充”处追加部署步骤即可（图片已随 dist/images 一并产出）。
 # 国内/国外分流在 DNSPod 用「默认 / 境外」线路实现，详见 README。
-#
-# 需在仓库 Settings → Secrets and variables → Actions 配置：
-#   UPYUN_SERVICE  又拍云云存储服务名（如 fs-blog）
-#   UPYUN_OPERATOR 操作员名
-#   UPYUN_PASSWORD 操作员密码
-# 未配置时自动跳过又拍云步骤，仅发布 GitHub Pages。
 
 on:
   push:
@@ -24,11 +18,6 @@ permissions:
 concurrency:
   group: deploy-blog
   cancel-in-progress: false
-
-env:
-  UPYUN_SERVICE: ${{ secrets.UPYUN_SERVICE }}
-  UPYUN_OPERATOR: ${{ secrets.UPYUN_OPERATOR }}
-  UPYUN_PASSWORD: ${{ secrets.UPYUN_PASSWORD }}
 
 jobs:
   build:
@@ -66,28 +55,8 @@ jobs:
         with:
           path: docs/.vitepress/dist
 
-      # ---------- 同步到又拍云（国内线路） ----------
-      - name: Install upx
-        if: ${{ env.UPYUN_SERVICE != '' }}
-        run: |
-          curl -fsSL https://collection.b0.upaiyun.com/softwares/upx/upx_0.4.9_linux_amd64.tar.gz | tar xz
-          sudo mv upx /usr/local/bin/upx
-
-      - name: Deploy to Upyun
-        if: ${{ env.UPYUN_SERVICE != '' }}
-        run: |
-          AUTH=$(upx auth "$UPYUN_SERVICE" "$UPYUN_OPERATOR" "$UPYUN_PASSWORD")
-          # 增量同步并删除远端多余文件（确保该服务专用于本站）
-          upx --auth="$AUTH" sync docs/.vitepress/dist / --delete
-
-      - name: Purge Upyun CDN cache
-        if: ${{ env.UPYUN_SERVICE != '' }}
-        continue-on-error: true
-        run: |
-          AUTH=$(upx auth "$UPYUN_SERVICE" "$UPYUN_OPERATOR" "$UPYUN_PASSWORD")
-          find docs/.vitepress/dist -name '*.html' -printf 'https://www.fsyume.com/%P\n' \
-            | sed 's#/index.html$#/#' > purge-urls.txt
-          upx --auth="$AUTH" purge --list purge-urls.txt
+      # ---------- 国内线路：待补充 ----------
+      # 选定新的静态托管后，在此追加部署 docs/.vitepress/dist 的步骤。
 
   deploy:
     needs: build

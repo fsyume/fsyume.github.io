@@ -232,7 +232,7 @@ export default defineConfig({
       ]
     },
     footer: {
-      message: '<a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_blank" rel="noopener">本网站由<img src="https://cos.blog.fsyume.com/my/upyun_logo5.png" alt="又拍云" style="display:inline;height:30px;position:relative;top:9px;background-color:rgb(255,255,255,0.5);">提供CDN加速/云存储服务</a><br><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener"><span>豫ICP备2020026923号-3</span></a>',
+      message: '<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener"><span>豫ICP备2020026923号-3</span></a>',
       copyright: 'Copyright © 2022-present <a href="https://space.bilibili.com/115505904" target="_blank" rel="noopener">chihying</a>'
     },
     search: {

@@ -17,7 +17,7 @@ updated: 2022-01-19
 1. 将下载好的MySQL数据库压缩文件，解压到任意磁盘分区内。
 2. 跟Java一样在MySQL使用之前要配置系统环境变量
 
-![](https://cos.blog.fsyume.com/blog-pic/202205261344883.png)
+![](/images/blog-pic/202205261344883.png)
 
 下载完后，我们将 zip 包解压到相应的目录，这里我将解压后的文件夹放在 ` C:\MySQL` 下。
 
