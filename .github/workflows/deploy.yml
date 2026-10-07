@@ -1,9 +1,10 @@
 name: Deploy Blog
 
 # 发布 GitHub Pages（国外线路）。
-# 国内线路的原又拍云部署已移除（又拍云停服）；待选定新的静态托管后，在下方
-# “国内线路：待补充”处追加部署步骤即可（图片已随 dist/images 一并产出）。
-# 国内/国外分流在 DNSPod 用「默认 / 境外」线路实现，详见 README。
+# 国内线路已迁移至腾讯云 EdgeOne Pages：在 EdgeOne 控制台「导入 Git 仓库」接入本仓库，
+# push 后由 EdgeOne 自行拉取并构建（构建命令 npm run docs:build，产物目录
+# docs/.vitepress/dist，图片已随 dist/images 一并产出），故本 workflow 不含国内部署步骤。
+# 国内/国外分流在 DNSPod 用「默认 / 境外」线路实现。
 
 on:
   push:
@@ -54,9 +55,6 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: docs/.vitepress/dist
-
-      # ---------- 国内线路：待补充 ----------
-      # 选定新的静态托管后，在此追加部署 docs/.vitepress/dist 的步骤。
 
   deploy:
     needs: build
