@@ -47,4 +47,8 @@ features:
     title: 狒狒食肆
     details: 最终幻想14 攻略与日常
     link: /ffxiv/
+  - icon: 🤖
+    title: AI Agent
+    details: AI 编码代理使用笔记
+    link: /agent/
 ---

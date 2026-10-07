@@ -21,7 +21,8 @@ const postDatePlugin = (md) => {
 
 const CATS = {
   linux: 'Linux', network: '网络', python: 'Python', java: 'Java',
-  database: '数据库', algorithm: '算法', others: '其他', ffxiv: '狒狒食肆'
+  database: '数据库', algorithm: '算法', others: '其他', ffxiv: '狒狒食肆',
+  agent: 'AI Agent'
 }
 
 // 扫描所有 md 的 frontmatter，收集文章元数据（供时间线页与 sitemap 使用）
@@ -226,7 +227,19 @@ export default defineConfig({
         {
           text: '最终幻想14',
           items: [
-            { text: '给狒狒豆芽看的常见PVE黑话（2024年8月7日 6.X版本）', link: '/ffxiv/给狒狒豆芽看的常见PVE黑话' }
+            { text: '给狒狒豆芽看的常见PVE黑话（2024年8月7日 6.X版本）', link: '/ffxiv/给狒狒豆芽看的常见PVE黑话' },
+            { text: '萌新入门系列', collapsed: true, items: [
+              { text: '系列目录', link: '/ffxiv/FF14萌新入门教程' },
+              { text: 'EP1 入坑准备：下载、注册、选服、捏脸', link: '/ffxiv/FF14萌新入门-EP1-入坑准备' }
+            ]}
+          ]
+        }
+      ],
+      '/agent/': [
+        {
+          text: 'AI Agent',
+          items: [
+            { text: 'OpenCode 使用笔记', link: '/agent/OpenCode使用笔记' }
           ]
         }
       ]
